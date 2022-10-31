@@ -15,8 +15,13 @@ body {
 }
 
 .container {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+     max-width: 400px;
 }
+
 
 .square {
  background-color: #1d1d1d;
@@ -24,6 +29,9 @@ body {
  height: 16px;
  width: 16px;
  margin: 2px;
+ transition: 2s ease;
+}
 
-
+.square:hover {
+    transition-duration: 0s;
 }
