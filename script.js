@@ -1,13 +1,13 @@
 const container = document.getElementById('container')
 const colors = [  '#FF2D00', '#FFFF00', '3DFF00' , '#00FFFA' , '#004CFF' , '#4C00FF' , '#FF00B9' , '#FF0000']
-const SQUARES = 1000
+const SQUARES = 500
 
 for( let i = 0 ; i < SQUARES ; i++){
     const square = document.createElement('div')
     square.classList.add('square')
 
     square.addEventListener('mouseover' , () => setColor(square))
-    square.addEventListener('mouseover' , () => removeColor(square))
+    square.addEventListener('mouseout' , () => removeColor(square))
 
     container.appendChild(square)
 }
@@ -18,7 +18,6 @@ function setColor(element){
    element.style.boxShadow = `0 0 2px ${color} , 0 0 10px ${color}`
 
 }
-
 
 function removeColor(element){
     element.style.background = '#1d1d1d'
