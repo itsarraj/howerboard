@@ -6,7 +6,7 @@
 
 ![Preview-1](https://github.com/itsarraj/howerboard/blob/master/src/preview.gif)
 
-![Screenshot-1](whttps://github.com/itsarraj/howerboard/blob/master/src/screensorts1.png)
+![Screenshot-1](https://github.com/itsarraj/howerboard/blob/master/src/screensorts1.png)
 
 ![Screenshot-2](https://github.com/itsarraj/howerboard/blob/master/src/screensorts2.png)
 
